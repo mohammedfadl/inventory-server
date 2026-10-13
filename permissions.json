@@ -1,0 +1,109 @@
+{
+ "stores": [
+  "items",
+  "suppliers",
+  "branches",
+  "branch",
+  "sales",
+  "expiry",
+  "central",
+  "transfers",
+  "monthlySales",
+  "purchases",
+  "promoItems",
+  "autoThresholds",
+  "stopped",
+  "limParams",
+  "expRot",
+  "invList"
+ ],
+ "backupStores": [
+  "items",
+  "suppliers",
+  "branches",
+  "branch",
+  "sales",
+  "expiry",
+  "central",
+  "transfers",
+  "monthlySales",
+  "purchases",
+  "promoItems",
+  "autoThresholds",
+  "stopped",
+  "limParams",
+  "expRot",
+  "invList"
+ ],
+ "tabs": [
+  "dash",
+  "mgmt",
+  "import",
+  "branches",
+  "items",
+  "branchstock",
+  "salesavg",
+  "monthlysales",
+  "dead",
+  "rotate",
+  "transfer",
+  "explist",
+  "expiry",
+  "central",
+  "invmove",
+  "suppliers",
+  "purchases",
+  "promo",
+  "autoorder",
+  "reports"
+ ],
+ "storeOwnerTabs": {
+  "items": [
+   "import"
+  ],
+  "suppliers": [
+   "import"
+  ],
+  "branches": [
+   "import"
+  ],
+  "branch": [
+   "import"
+  ],
+  "sales": [
+   "import"
+  ],
+  "expiry": [
+   "import"
+  ],
+  "central": [
+   "import"
+  ],
+  "monthlySales": [
+   "import"
+  ],
+  "purchases": [
+   "import"
+  ],
+  "transfers": [
+   "transfer"
+  ],
+  "expRot": [
+   "expiry"
+  ],
+  "promoItems": [
+   "promo"
+  ],
+  "stopped": [
+   "dead",
+   "autoorder"
+  ],
+  "autoThresholds": [
+   "autoorder"
+  ],
+  "invList": [
+   "invmove"
+  ],
+  "limParams": []
+ }
+}

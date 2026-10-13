@@ -1,0 +1,11 @@
+services:
+  inventory:
+    build: .
+    restart: unless-stopped
+    ports: ["3000:3000"]          # خلف nginx/Caddy يُفضّل: "127.0.0.1:3000:3000"
+    environment:
+      TRUST_PROXY: "1"            # اجعلها 0 إذا تصل للمنفذ مباشرة بدون وسيط
+      SESSION_HOURS: "12"
+    volumes: ["inventory-data:/data"]
+volumes:
+  inventory-data:

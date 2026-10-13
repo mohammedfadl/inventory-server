@@ -1,0 +1,12 @@
+# /etc/systemd/system/inventory.service
+[Unit]
+Description=Inventory System
+After=network.target
+[Service]
+WorkingDirectory=/opt/inventory
+Environment=PORT=3000 DATA_DIR=/opt/inventory/data TRUST_PROXY=1
+ExecStart=/usr/bin/node --disable-warning=ExperimentalWarning server.js
+Restart=always
+User=inventory
+[Install]
+WantedBy=multi-user.target
